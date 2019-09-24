@@ -4,6 +4,9 @@ In Geogebra, developers can create applets that can be used for a variety of thi
 
 Sometimes, it is beneficial to limit what a user can input into the box. By connecting the box to a text object, we can change what happens to the string before it makes any changes to the construction.
 
-This code restricts users to inputting only numerical values in the box. 
+***
+This code restricts users to inputting only numerical values in the box. Putting this code into the update box of either the text object or the input box will work. Change inTxt1 to whatever the name of your text object is and youre ready to go!
+***
 
-This can be bypassed by adding and objects name to the input box in quotations, but I have not been able to figure out how to change that.
+# Note:
+# This can be bypassed by adding an objects name to the input box in quotations, but I have not been able to figure out how to change that.
